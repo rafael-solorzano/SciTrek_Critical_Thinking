@@ -1,0 +1,50 @@
+---
+title: "stuf"
+author: "Rafael Solorzano"
+date: "5/26/2021"
+output: html_document
+---
+
+```{r}
+install.packages("agricolae")
+library("agricolae")
+```
+
+```{r}
+library(readxl)
+pre_assesment_scores <- read_excel("~/Desktop/SciTrek URCA.xlsx", 
+    sheet = "pre_work_r")
+View(pre_assesment_scores)
+```
+
+```{r}
+data.lm <- lm(pre_assesment_scores$Score ~ pre_assesment_scores$Group, data = pre_assesment_scores)
+
+data.av <- aov(data.lm)
+summary(data.av)
+
+data.test <- TukeyHSD(data.av)
+data.test
+
+
+#Plotting Results 
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
