@@ -7,6 +7,7 @@ Can SciTrek Expand the Borders of Critical Thought?
 # Can SciTrek Expand the Borders of Critical Thought?
  
   **Group**: [SciTrek Research Group](https://scitrek.chem.ucsb.edu/about)
+  
   ** Principal Investigator**: [Norbert Reich PhD](https://reich.chem.ucsb.edu/), Dept of Chemistry & Biochemistry 
    
 
